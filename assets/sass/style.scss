@@ -72,6 +72,12 @@ body {
   p {
     color: $white;
   }
+  span svg {
+    color: $white;
+    border: 1px solid $white;
+    margin-inline: -3px;
+  }
+
   .ristretto {
     width: 60%;
   }

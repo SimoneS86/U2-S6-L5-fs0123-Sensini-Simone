@@ -8475,6 +8475,11 @@ body .col-md-3 {
 body p {
   color: rgb(142, 142, 142);
 }
+body span svg {
+  color: rgb(142, 142, 142);
+  border: 1px solid rgb(142, 142, 142);
+  margin-inline: -3px;
+}
 body .ristretto {
   width: 60%;
 }
