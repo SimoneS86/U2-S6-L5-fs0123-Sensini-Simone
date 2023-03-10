@@ -2,6 +2,7 @@
 // Configuration
 @import "./bootstrap/functions";
 //override variables
+$white: rgb(142, 142, 142);
 
 @import "./bootstrap/variables";
 //override maps
@@ -57,11 +58,25 @@ body {
   }
   h2,
   h5 {
-    color: $white;
+    color: white;
   }
   .dropdown-toggle {
     text-decoration: none;
   }
-  .card img {
+  .col-md-3 {
+    font-size: 0.9rem;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    color: $white;
+  }
+  .ristretto {
+    width: 60%;
+  }
+  .service {
+    color: $white;
+    border: 1px solid $white;
   }
 }
