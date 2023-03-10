@@ -8451,4 +8451,18 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  background-color: #000;
+}
+body .navbar-toggler {
+  background-color: #495057;
+}
+body h2, body .h2,
+body h5,
+body .h5 {
+  color: #fff;
+}
+body .dropdown-toggle {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

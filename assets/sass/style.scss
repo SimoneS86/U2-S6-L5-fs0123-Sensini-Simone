@@ -2,6 +2,7 @@
 // Configuration
 @import "./bootstrap/functions";
 //override variables
+
 @import "./bootstrap/variables";
 //override maps
 
@@ -48,3 +49,19 @@
 // Utilities
 @import "./bootstrap/utilities/api";
 // scss-docs-end import-stack
+
+body {
+  background-color: $black;
+  .navbar-toggler {
+    background-color: $gray-700;
+  }
+  h2,
+  h5 {
+    color: $white;
+  }
+  .dropdown-toggle {
+    text-decoration: none;
+  }
+  .card img {
+  }
+}
