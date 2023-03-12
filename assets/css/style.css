@@ -8641,6 +8641,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 body .navbar-toggler {
   background-color: rgb(31, 31, 31);
 }
@@ -8658,7 +8661,7 @@ body .h6,
 body span,
 body label,
 body select {
-  color: white;
+  color: rgb(237, 237, 237);
 }
 body .dropdown-toggle {
   text-decoration: none;
@@ -8688,7 +8691,7 @@ body .nav2 {
   background-image: linear-gradient(to bottom, black, #212529);
 }
 body h1, body .h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 body hr {
   color: rgb(142, 142, 142);
@@ -8701,4 +8704,10 @@ body .scuro {
 }
 body .d-inline-block.justify-content-between {
   width: 100%;
+}
+body .p-2.mb-3.col-7 {
+  background-color: #313539;
+}
+body label {
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */

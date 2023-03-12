@@ -56,6 +56,7 @@ $theme-colors: map-merge($custome-theme-colors, $theme-colors);
 // scss-docs-end import-stack
 
 body {
+  font-family: "Roboto", sans-serif;
   .navbar-toggler {
     background-color: rgb(31, 31, 31);
   }
@@ -68,7 +69,7 @@ body {
   span,
   label,
   select {
-    color: white;
+    color: rgb(237, 237, 237);
   }
   .dropdown-toggle {
     text-decoration: none;
@@ -100,7 +101,7 @@ body {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   hr {
     color: rgb(142, 142, 142);
@@ -113,5 +114,11 @@ body {
   }
   .d-inline-block.justify-content-between {
     width: 100%;
+  }
+  .p-2.mb-3.col-7 {
+    background-color: darken($secondary, 25%);
+  }
+  label {
+    font-size: 0.8rem;
   }
 }

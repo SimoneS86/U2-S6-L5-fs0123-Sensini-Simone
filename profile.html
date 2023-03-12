@@ -4,28 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Edit Profile</title>
   </head>
+
   <body class="bg-altblack">
-    <nav class="navbar navbar-dark nav2">
+    <nav class="navbar navbar-dark mb-5 nav2">
       <div class="container container-fluid ms-1">
         <a class="navbar-brand" href="index.html">
           <img src="assets/media/netflix_logo.png" alt="netflix logo" width="100px" />
         </a>
       </div>
     </nav>
+
     <div class="container-fluid justify-content-center">
       <div class="container col-md-5">
-        <h1>Edit Profile</h1>
-        <hr />
+        <h1 class="pb-0 mb-0">Edit Profile</h1>
+        <hr class="mt-0 mb-4" />
         <div class="row">
           <div class="col-3">
             <img src="assets/media/avatar.png" alt="logo" />
           </div>
           <div class="d-flex flex-column col-8">
-            <span class="bg-secondary p-2 mb-4">Strive Student</span>
-            <span class="mb-1">Language:</span>
+            <span class="fs-5 bg-secondary p-2 mb-4">Strive Student</span>
+            <span class="fs-5 mb-1">Language:</span>
             <select name="select" class="bg-dark col-4 p-1 mb-2">
               <option>Italiano</option>
               <option>English</option>
@@ -33,29 +38,28 @@
               <option>Deutsch</option>
               <option>Español</option>
             </select>
-            <hr />
-            <span class="mb-3">Maturity Settings:</span>
-            <span class="bg-secondary p-2 mb-3 col-7">ALL MATURITY RATINGS</span>
+            <hr class="mb-4" />
+            <span class="fs-5 mb-3">Maturity Settings:</span>
+            <span class="p-2 mb-3 col-7">ALL MATURITY RATINGS</span>
             <span class="mb-3">Show titles of all maturity rating for this profile</span>
-            <button type="button" class="col-3 bg-dark text-light border-light py-1 mb-2">EDIT</button>
-            <hr />
-            <span class="mb-1">Autoplay controls</span>
-
+            <button type="button" class="col-3 bg-altblack text-altgray border border-altgray py-2 mb-2">EDIT</button>
+            <hr class="mb-3" />
+            <span class="fs-5 mb-1">Autoplay controls</span>
             <div class="form-check form-check-inline">
               <input class="form-check-input mb-2" type="checkbox" id="exampleCheckbox" />
               <label class="form-check-label" for="exampleCheckbox">Autoplay next episode in a series on all device</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input mb-2" type="checkbox" id="exampleCheckbox" />
+              <input class="form-check-input mb-3" type="checkbox" id="exampleCheckbox" />
               <label class="form-check-label" for="exampleCheckbox">Autoplay previews while browsing on all devices</label>
             </div>
           </div>
         </div>
-        <hr class="mb-4" />
-        <div class="row justify-content-between">
-          <button type="button" class="col-3 bg-dark text-light border-light py-1 mt-1">SAVE</button>
-          <button type="button" class="col-3 bg-dark text-light border-light py-1 mt-1">CANCEL</button>
-          <button type="button" class="col-4 bg-dark text-light border-light py-1 mt-1">DELETE PROFILE</button>
+        <hr class="mb-3" />
+        <div class="row justify-content-between mb-3">
+          <button type="button" class="fw-semibold col-3 bg-light text-altblack border border-altblack py-2 mt-1">SAVE</button>
+          <button type="button" class="col-3 bg-altblack text-altgray border border-altgray py-2 mt-1">CANCEL</button>
+          <button type="button" class="col-4 bg-altblack text-altgray border border-altgray py-2 mt-1">DELETE PROFILE</button>
         </div>
       </div>
     </div>
