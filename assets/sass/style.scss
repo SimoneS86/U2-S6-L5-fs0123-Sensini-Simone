@@ -83,6 +83,18 @@ body {
   .col-sm-6.col-md-4.col-lg-2 img:hover {
     transform: scale(1.2);
   }
+  .carousel-control-prev {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 50px;
+  }
+  .carousel-control-next {
+    position: absolute;
+    left: 100;
+    width: 50px;
+    height: 50px;
+  }
   .col-md-3 {
     font-size: 0.9rem;
     color: $gray-200;

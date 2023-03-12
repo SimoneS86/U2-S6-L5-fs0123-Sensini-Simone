@@ -8879,6 +8879,18 @@ body .col-sm-6.col-md-4.col-lg-2 img {
 body .col-sm-6.col-md-4.col-lg-2 img:hover {
   transform: scale(1.2);
 }
+body .carousel-control-prev {
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+body .carousel-control-next {
+  position: absolute;
+  left: 100;
+  width: 50px;
+  height: 50px;
+}
 body .col-md-3 {
   font-size: 0.9rem;
   color: rgb(142, 142, 142);
