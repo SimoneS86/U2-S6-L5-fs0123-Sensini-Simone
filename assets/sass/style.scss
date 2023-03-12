@@ -2,11 +2,15 @@
 // Configuration
 @import "./bootstrap/functions";
 //override variables
-$white: rgb(142, 142, 142);
 
 @import "./bootstrap/variables";
 //override maps
-
+$custome-theme-colors: (
+  "altlight": rgb(237, 237, 237),
+  "altgray": rgb(142, 142, 142),
+  "altblack": rgb(31, 31, 31),
+);
+$theme-colors: map-merge($custome-theme-colors, $theme-colors);
 @import "./bootstrap/maps";
 @import "./bootstrap/mixins";
 @import "./bootstrap/utilities";
@@ -52,12 +56,18 @@ $white: rgb(142, 142, 142);
 // scss-docs-end import-stack
 
 body {
-  background-color: $black;
   .navbar-toggler {
-    background-color: $gray-700;
+    background-color: rgb(31, 31, 31);
   }
+  h1,
   h2,
-  h5 {
+  h3,
+  h4,
+  h5,
+  h6,
+  span,
+  label,
+  select {
     color: white;
   }
   .dropdown-toggle {
@@ -65,15 +75,15 @@ body {
   }
   .col-md-3 {
     font-size: 0.9rem;
-    color: $white;
+    color: rgb(142, 142, 142);
     display: flex;
     flex-direction: column;
   }
   p {
-    color: $white;
+    color: rgb(142, 142, 142);
   }
   span svg {
-    color: $white;
+    color: rgb(142, 142, 142);
     border: 1px solid $white;
     margin-inline: -3px;
   }
@@ -82,7 +92,26 @@ body {
     width: 60%;
   }
   .service {
-    color: $white;
-    border: 1px solid $white;
+    color: rgb(142, 142, 142);
+    border: 1px solid rgb(142, 142, 142);
+  }
+  .nav2 {
+    background-image: linear-gradient(to bottom, black, $gray-900);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  hr {
+    color: rgb(142, 142, 142);
+  }
+  .col-3 img {
+    width: 100%;
+  }
+  .scuro {
+    color: black;
+  }
+  .d-inline-block.justify-content-between {
+    width: 100%;
   }
 }
