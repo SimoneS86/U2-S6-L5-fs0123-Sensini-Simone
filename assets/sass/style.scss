@@ -60,6 +60,9 @@ body {
   .navbar-toggler {
     background-color: rgb(31, 31, 31);
   }
+  .navbar-toggler-icon {
+    background-color: $gray-200;
+  }
   h1,
   h2,
   h3,
@@ -73,6 +76,12 @@ body {
   }
   .dropdown-toggle {
     text-decoration: none;
+  }
+  .col-sm-6.col-md-4.col-lg-2 img {
+    transition: all 0.2s ease-in;
+  }
+  .col-sm-6.col-md-4.col-lg-2 img:hover {
+    transform: scale(1.2);
   }
   .col-md-3 {
     font-size: 0.9rem;
