@@ -2,7 +2,7 @@
 // Configuration
 @import "./bootstrap/functions";
 //override variables
-
+$gray-200: rgb(142, 142, 142);
 @import "./bootstrap/variables";
 //override maps
 $custome-theme-colors: (
@@ -76,16 +76,16 @@ body {
   }
   .col-md-3 {
     font-size: 0.9rem;
-    color: rgb(142, 142, 142);
+    color: $gray-200;
     display: flex;
     flex-direction: column;
   }
   p {
-    color: rgb(142, 142, 142);
+    color: $gray-200;
   }
   span svg {
-    color: rgb(142, 142, 142);
-    border: 1px solid $white;
+    color: $gray-200;
+    border: 1px solid $gray-200;
     margin-inline: -3px;
   }
 
@@ -93,8 +93,8 @@ body {
     width: 60%;
   }
   .service {
-    color: rgb(142, 142, 142);
-    border: 1px solid rgb(142, 142, 142);
+    color: $gray-200;
+    border: 1px solid $gray-200;
   }
   .nav2 {
     background-image: linear-gradient(to bottom, black, $gray-900);
@@ -104,7 +104,7 @@ body {
     font-size: 4rem;
   }
   hr {
-    color: black;
+    color: $gray-200;
     margin-block: 8px;
   }
   .img100 {
@@ -129,28 +129,25 @@ body {
   a {
     text-decoration: none;
   }
-  .container-fluid.justify-content-center {
+  .meno-rem {
     font-size: 0.8rem;
     line-height: 1.6rem;
   }
   .transparent-check {
     background-color: transparent;
-    border-color: rgb(142, 142, 142);
+    border-color: $gray-200;
     box-shadow: none;
   }
   .form-check-input {
-    width: 1.7em;
-    height: 1.7em;
+    width: 1.8em;
+    height: 1.8em;
     margin-right: 7px;
-  }
-  .relative {
-    position: relative;
   }
   .absolute {
     position: absolute;
-    left: 20px;
-    top: 120px;
-    width: 30px;
-    height: 30px;
+    left: 10px;
+    bottom: 10px;
+    width: 25px;
+    height: 25px;
   }
 }
