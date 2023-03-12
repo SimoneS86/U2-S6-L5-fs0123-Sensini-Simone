@@ -8694,13 +8694,15 @@ body h1, body .h1 {
   font-size: 4rem;
 }
 body hr {
-  color: rgb(142, 142, 142);
+  color: black;
+  margin-block: 8px;
 }
-body .col-3 img {
+body .img100 {
   width: 100%;
 }
 body .scuro {
   color: black;
+  font-weight: bold;
 }
 body .d-inline-block.justify-content-between {
   width: 100%;
@@ -8710,4 +8712,34 @@ body .p-2.mb-3.col-7 {
 }
 body label {
   font-size: 0.8rem;
+}
+body .border.py-1.px-4 {
+  font-size: 0.7rem;
+}
+body a {
+  text-decoration: none;
+}
+body .container-fluid.justify-content-center, body .justify-content-center.container-sm, body .justify-content-center.container-md, body .justify-content-center.container-lg, body .justify-content-center.container-xl, body .justify-content-center.container-xxl {
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+}
+body .transparent-check {
+  background-color: transparent;
+  border-color: rgb(142, 142, 142);
+  box-shadow: none;
+}
+body .form-check-input {
+  width: 1.7em;
+  height: 1.7em;
+  margin-right: 7px;
+}
+body .relative {
+  position: relative;
+}
+body .absolute {
+  position: absolute;
+  left: 20px;
+  top: 120px;
+  width: 30px;
+  height: 30px;
 }/*# sourceMappingURL=style.css.map */

@@ -104,13 +104,15 @@ body {
     font-size: 4rem;
   }
   hr {
-    color: rgb(142, 142, 142);
+    color: black;
+    margin-block: 8px;
   }
-  .col-3 img {
+  .img100 {
     width: 100%;
   }
   .scuro {
     color: black;
+    font-weight: bold;
   }
   .d-inline-block.justify-content-between {
     width: 100%;
@@ -120,5 +122,35 @@ body {
   }
   label {
     font-size: 0.8rem;
+  }
+  .border.py-1.px-4 {
+    font-size: 0.7rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container-fluid.justify-content-center {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+  }
+  .transparent-check {
+    background-color: transparent;
+    border-color: rgb(142, 142, 142);
+    box-shadow: none;
+  }
+  .form-check-input {
+    width: 1.7em;
+    height: 1.7em;
+    margin-right: 7px;
+  }
+  .relative {
+    position: relative;
+  }
+  .absolute {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    width: 30px;
+    height: 30px;
   }
 }
